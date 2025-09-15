@@ -22,12 +22,19 @@
 
 <h2>⚙️ Detalhes Técnicos</h2>
 <ul>
-  <li>Carousel utilizado</li>
-  <li>:hover utilizado</li>
-  <li>background-attachment: fixed utilizado</li>
+  <li>icones com font-awesome com cdn no head</li>
+  <li>reset css utilizado</li>
+  <li>CSS organizado em varios arquivos.css</li>
+  <li>HTML semântico e bem estruturado</li>
+  <li>paradigma de programação estruturado</li>
   <li>responsivo para todas as telas</li>
-  <li>estrutura do html semântica</li>
-  <li>transform: rotate(30deg) para rotacionar imagem</li>
-  <li>footer bem estruturado</li>
-  <li>flex box utilizado</li>
+  <li>efeito com icone hamburguer na tela para mobile de abrir navegação ao clicar</li>
+  <li>efeito de escolher texto clicando na paginação com JavaScript e CSS</li>
+  <li>Efeito de trazer conteudo de lada ao scrolar a tela com JavaScript e CSS</li> 
+  <li>display grid e flex utilizados</li>
+  <li>Animação de trazer de cima pra baixo lentamente a navegação em tela mobile</li>
+  <li>reset css utilizado</li>
+  <li>:hover utilizado</li>
+  <li>manipulação de background</li>
+  <li>background: url(../img/hamburguer-fundo2.jpg) center / cover no-repeat;</li>
 </ul>
