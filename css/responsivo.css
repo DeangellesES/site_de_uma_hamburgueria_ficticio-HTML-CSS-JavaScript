@@ -1,0 +1,234 @@
+@media screen and (max-width: 480px){
+    /* Cabecalho */
+    header .bg nav ul{
+        display: none;
+    }
+
+    header .bg nav ul.ativo {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        margin-top: 30px;
+        padding: 40px;
+        animation: animation .5s forwards; /* chama a o keyframe criado, animação lista surgindo de cima pra baixo de forma mais lenta*/
+    }
+
+    /*cria tipo uma função para fazer a animação de descer de forma mais lenta no icone de hamburguer, junto a função em javascript*/
+    @keyframes animation {
+        from {
+            transform: translate3d(0, -60px, 0);
+        }
+        to {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    nav ul li {
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+
+    header .bg img {
+        width: 200px;
+    }
+
+    header .bg i {
+        display: block;
+        position: absolute;
+        right: 80px;
+        font-size: 2.5rem;
+    }
+
+    header .bg i.ativo nav ul {
+        display: block !important;
+    }
+
+    /* Popular */
+    .titulo-hamburger {
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    /* Cardapio */
+    .cardapio {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cardapio {
+        grid-template-columns: 1fr;
+    }
+
+    .burguer-cardapio{
+        box-shadow: 3px;
+        border-radius: 6px;
+    }
+
+    /* Seção discover */
+    .discover div {
+        text-align: center;
+    }
+
+    .discover .grid-texto {
+        grid-row: 2;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .img-icones img {
+        width: 40vh;
+    }
+
+    .discover p {
+        text-align: center !important;
+        margin: 0 auto 30px auto !important;
+    }
+
+    /* reserva */
+    .reserva__fundo {
+        background: rgba(0, 0, 0, .7);
+        width: 300px;
+        text-align: center;
+    }
+
+    .reserva-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background: none;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    footer h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    footer p{
+        margin-bottom: 100px;
+    }
+
+    .network-footer {
+        background-color: rgba(0, 0, 0, .7);
+        padding: 1.5rem 2rem;
+        margin: 0;
+        text-align: center;
+        font-size: .9rem; 
+    }
+
+    .company h6{
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .icones-footer {
+        font-size: 2rem;
+        gap: 30px;
+    } 
+
+}
+
+ /* @media screen and (min-width: 480px) and (max-width: 1200px) {
+    .discover p{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .img-icones img{
+        width: 100%;
+    }
+
+    .reserva-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .reseva__data {
+        width: 36%;
+    }
+
+    .footer h1{
+        padding: 40px;
+        color: reds;
+    }
+}  */
+
+/* @media(max-width: 900px) {
+    .cardapio {
+        grid-template-columns: 1fr 1fr;
+    }
+} */
+
+/* @media(max-width: 768px) {
+    .cardapio {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .burguer-cardapio{
+        box-shadow: 3px;
+        border-radius: 6px;
+    }
+
+    .reserva {
+        display: flex;
+
+    }
+
+    footer {
+        padding: 50px;
+    }
+} */
+
+/* @media(max-width: 900px){
+    .discover {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .discover div {
+        text-align: center;
+    }
+
+    .discover .grid-texto {
+        grid-row: 2;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .discover p {
+        display: none;
+        text-align: center !important;
+        margin: 0 auto 30px auto !important;
+    }
+} */
+
+/* @media(max-width: 900px){
+    .discover {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .discover div {
+        text-align: center;
+    }
+
+    .discover .grid-texto {
+        grid-row: 2;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .discover p {
+        display: none;
+        text-align: center !important;
+        margin: 0 auto 30px auto !important;
+    }
+} */

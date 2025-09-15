@@ -1,0 +1,55 @@
+.reserva {
+    background: url(../img/hamburguer-fundo2.jpg) center / cover no-repeat;
+    padding: 50px;
+}
+
+.reserva-grid {
+    /* background-color: rgb(0, 0, 0, .7); */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    margin: 0 auto;
+}
+
+.reserva__fundo {
+    padding-top: 20px;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.reserva__titulo {
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.reserva-grid input {
+    align-self: center;
+    padding: 12px 76px 14px 8px;
+    border-radius: 4px;
+    border: none;
+    justify-self: start;
+}
+
+.reserva-grid input::placeholder {
+    font-size: .9rem;
+    color: #b1adad;
+}
+
+.reserva-grid button {
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 1/-1;
+    justify-self: center;
+    padding: 20px 80px;
+    border-radius: 6px;
+    background-color: tomato;
+    border: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+}

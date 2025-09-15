@@ -1,0 +1,24 @@
+.bg {
+    background-color: rgb(224, 186, 114);
+}
+
+.js-scroll {
+    opacity: 0;
+}
+
+.js-scroll.ativo {
+    opacity: 1;
+    animation: scrollSlide .6s forwards; /*chmando a animação keyframes e colocando um tempo nela e fazendo ela vir de lado*/
+}
+
+/* Animação para trazer o conteudo da página de lado junto com a função javasript*/
+@keyframes scrollSlide {
+    from {
+        transform: translate3d(-90px, 0, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+

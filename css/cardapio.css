@@ -1,0 +1,70 @@
+.cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    gap: 15px;
+}
+
+.cardapio h2 {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.cardapio h3 {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cardapio h1 {
+    font-size: 5rem;
+    grid-column: 1/-1;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: monospace;
+}
+
+.cardapio p {
+    width: 70%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.burguer-cardapio {
+    display: grid;
+    margin: 6px 40px;
+    gap: 10px;
+    justify-items: center;
+    align-items: start;
+    box-shadow: 0 5px 10px 2px;
+    border-radius: 40% 5px 40% 5px;
+}
+
+.burguer-cardapio img {
+    max-width: 60%;
+}
+
+.burguer-cardapio p {
+    width: 80%;
+}
+
+.burguer-cardapio .button-cardapio {
+    padding: 15px 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: tomato;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition:  .5s ease-in; /* faz com que o hover seja mais lento (colocado no button sem o hover)*/
+}
+
+.burguer-cardapio .button-cardapio:hover {
+    opacity: .7;
+}
+

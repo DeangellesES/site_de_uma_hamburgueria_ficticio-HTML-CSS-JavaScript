@@ -1,0 +1,54 @@
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal .titulo {
+    max-width: 50%;
+    justify-self: center;
+}
+
+.principal .titulo h1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal .titulo h4 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal img {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.principal figure {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+}
+
+.principal span { 
+    position: absolute;
+    font-size: 1.3rem;
+    bottom: 100px;
+    color: aliceblue;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+@media(max-width: 700px){
+    .principal {
+        grid-template-columns: 1fr;
+    }
+
+    .principal span {
+        left: 60px;
+        font-size: 2rem;
+    }
+}

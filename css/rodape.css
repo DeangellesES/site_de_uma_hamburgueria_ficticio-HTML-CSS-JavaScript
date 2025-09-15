@@ -1,0 +1,64 @@
+footer {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    justify-content: space-around;
+    background: url(../img/hamburguer-footer2.jpg) center / cover;  
+    margin-top: 50px;
+    padding: 50px;
+}
+
+footer h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+footer p {
+    color: #fff;
+    grid-column: 1;
+    /* max-width: 50%; */
+    justify-self: start;
+    /* padding-left: 70px; */
+    grid-row: 2;
+    font-size: 1.1rem;
+}
+
+.network-footer {
+    color: #ffb07a;
+    display: grid;
+    flex-wrap: wrap;
+    grid-row: 1;
+    gap: 30px;
+    font-size: 1.23rem;
+    margin-left: 100px;
+}
+
+.company {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    display: grid;
+    color: #fff;
+    margin-top: 100px;
+    row-gap: 30px;
+    align-items: last baseline;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: space-around;
+}
+
+.company h6 {
+    text-align: center;
+    align-self: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.icones-footer {
+    color: rgb(247, 244, 244);
+    font-size: 3rem;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+}

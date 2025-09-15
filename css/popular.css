@@ -1,0 +1,79 @@
+.titulo-hamburger {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    padding: 80px 40px 60px 80px;
+}
+
+.popular {
+    border-radius: 4px 0 0 4px;
+    background-image: url(../img/hamburguer1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 430px;
+    padding: 10px;
+}
+
+.popular h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.popular span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.popular-secundario {
+    display: grid;
+    gap: 30px;
+}
+
+.terca {
+    border-radius: 4px 0 0 4px;
+    background-image: url(../img/hamburguer2.png);
+    padding: 10px;
+    height: 200px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: stretch;
+}
+
+.terca h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.terca span {
+    font-weight: bold;
+    color: yellow;
+}
+
+.quarta {
+    border-radius: 4px 0 0 4px;
+    background-image: url(../img/hamburguer3.png);
+    height: 200px;
+    padding: 10px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quarta h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.quarta span {
+    font-weight: bold;
+    color: yellow;
+}
